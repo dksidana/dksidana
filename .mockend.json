@@ -1,31 +1,127 @@
 {
-  "User": {
-    "name": {
-      "string": {}
-    },
-    "avatarUrl": {
-      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-    },
-    "statusMessage": {
-      "string": [
-        "working from home",
-        "watching Netflix"
-      ]
-    },
-    "email": {
-      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "color": {
-      "regexp": "#[0-9A-F]{6}"
-    },
-    "age": {
-      "int": {
-        "min": 21,
-        "max": 100
+  "en":
+      {
+         "playlist":[
+            {
+               "sources":[
+                  {
+                     "src":"http://content.reelearn.ai/videos/Whatsapp%20Videos/19/19%20(Hindi%20Video)%20480p.mp4",
+                     "type":"video/mp4"
+                  }
+               ],
+               "textTracks":[
+                  {
+                     "kind":"subtitles",
+                     "label":"English",
+                     "srclang":"en",
+                     "src":"http://content.reelearn.ai/videos/Whatsapp%20Videos/vtt/19%20(English%20Subtitle).vtt",
+                     "default":true
+                  },
+                  {
+                     "kind":"subtitles",
+                     "label":"Hindi",
+                     "srclang":"hi",
+                     "src":"http://content.reelearn.ai/videos/Whatsapp%20Videos/vtt/19%20(Hindi%20Subtitle).vtt"
+                  }
+               ],
+               "poster":"http://content.reelearn.ai/videos/firstframe/19_Hindi_Video_zhnulq.jpg"
+            },
+            {
+               "sources":[
+                  {
+                     "src":"http://content.reelearn.ai/videos/Whatsapp%20Videos/25/25%20(Hindi%20Video)%20480p.mp4",
+                     "type":"video/mp4"
+                  }
+               ],
+               "textTracks":[
+                  {
+                     "kind":"subtitles",
+                     "label":"English",
+                     "srclang":"en",
+                     "src":"http://content.reelearn.ai/videos/Whatsapp%20Videos/vtt/25%20(English%20Subtitle).vtt",
+                     "default":true
+                  },
+                  {
+                     "kind":"subtitles",
+                     "label":"Hindi",
+                     "srclang":"hi",
+                     "src":"http://content.reelearn.ai/videos/Whatsapp%20Videos/vtt/25%20(Hindi%20Subtitle).vtt"
+                  }
+               ],
+               "poster":"http://content.reelearn.ai/videos/firstframe/25_Hindi_Video_efgrga.jpg"
+            },
+            {
+               "sources":[
+                  {
+                     "src":"http://content.reelearn.ai/videos/Whatsapp%20Videos/17/17%20(Hindi%20Video).mp4",
+                     "type":"video/mp4"
+                  }
+               ],
+               "textTracks":[
+                  {
+                     "kind":"subtitles",
+                     "label":"English",
+                     "srclang":"en",
+                     "src":"http://content.reelearn.ai/videos/Whatsapp%20Videos/vtt/17%20(English%20Subtitle).vtt",
+                     "default":true
+                  },
+                  {
+                     "kind":"subtitles",
+                     "label":"Hindi",
+                     "srclang":"hi",
+                     "src":"http://content.reelearn.ai/videos/Whatsapp%20Videos/vtt/17%20(Hindi%20Subtitle).vtt"
+                  }
+               ],
+               "poster":"http://content.reelearn.ai/videos/firstframe/17_Hindi_Video_p9ghu3.jpg"
+            },
+            {
+               "sources":[
+                  {
+                     "src":"http://content.reelearn.ai/videos/Whatsapp%20Videos/37/37%20(Hindi%20Video).mp4",
+                     "type":"video/mp4"
+                  }
+               ],
+               "textTracks":[
+                  {
+                     "kind":"subtitles",
+                     "label":"English",
+                     "srclang":"en",
+                     "src":"http://content.reelearn.ai/videos/Whatsapp%20Videos/vtt/37%20(English%20Subtitle).vtt",
+                     "default":true
+                  },
+                  {
+                     "kind":"subtitles",
+                     "label":"Hindi",
+                     "srclang":"hi",
+                     "src":"http://content.reelearn.ai/videos/Whatsapp%20Videos/vtt/37%20(Hindi%20Subtitle).vtt"
+                  }
+               ],
+               "poster":"http://content.reelearn.ai/videos/firstframe/37_Hindi_Video_hhatc8.jpg"
+            },
+            {
+               "sources":[
+                  {
+                     "src":"http://content.reelearn.ai/videos/Whatsapp%20Videos/1%20(Hindi)/1%20(Video)%20.mp4",
+                     "type":"video/mp4"
+                  }
+               ],
+               "textTracks":[
+                  {
+                     "kind":"subtitles",
+                     "label":"English",
+                     "srclang":"en",
+                     "src":"http://content.reelearn.ai/videos/Whatsapp%20Videos/vtt/1%20(English%20Subtitle).vtt",
+                     "default":true
+                  },
+                  {
+                     "kind":"subtitles",
+                     "label":"Hindi",
+                     "srclang":"hi",
+                     "src":"http://content.reelearn.ai/videos/Whatsapp%20Videos/vtt/1%20(Hindi%20Subtitle).vtt"
+                  }
+               ],
+               "poster":"http://content.reelearn.ai/videos/firstframe/1_hindi_whatsapp_for_lead_generation_dhkn4g.jpg"
+            }
+         ]
       }
-    },
-    "isPublic": {
-      "boolean": {}
-    }
-  }
 }
